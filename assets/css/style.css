@@ -26,8 +26,8 @@
   position: fixed;
 	width: 100%;
 	height: 100vh;
-	background: #fff
-	url('https://cdn.dribbble.com/users/49684/screenshots/1819933/loading5.gif')
+	background: #C6462F
+	url('https://i0.wp.com/codemyui.com/wp-content/uploads/2017/11/christmas-stocking-loading-animation.gif')
 	 no-repeat center center;	
 	z-index: 99999;
 }
