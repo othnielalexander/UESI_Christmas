@@ -28,7 +28,9 @@
     <meta name="twitter:card" content="summary_large_image">
   </head>
 
-  <body scroll="no" style="overflow: hidden">
+  <body onload="myfunction()" scroll="no" style="overflow: hidden">
+
+    <div id="loading"></div>
 
     <!-- Header -->
     <a class="scroll-down-1 scroll-down-white" href="#section-content1">
@@ -278,6 +280,13 @@
     </a>
 
     <!-- Scripts -->
+    <script>
+      var preloader = document.getElementById("loading");
+
+      function myfunction(){
+        preloader.style.display = "none";
+      }
+    </script>
     <script src="assets/js/page.min.js"></script>
     <script src="assets/js/script.js"></script>
 
